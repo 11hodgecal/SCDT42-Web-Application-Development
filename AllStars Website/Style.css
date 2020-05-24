@@ -1,0 +1,156 @@
+/*Navbar Styles*/
+.bg-custom{
+    background-color: black;
+    z-index: 1;
+}
+.nav-link{
+    color: red !important;
+    font-size: 20px
+    
+}
+.nav-link:hover{
+    transition: 0.5s;
+    color: white;
+    border-bottom: 1px solid white !important;
+}
+
+.nav-link-logo{
+    color: red !important;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.nav-border{
+    border-bottom: 1.5px solid red;
+}
+.nav-link-logo:hover{
+    transition: 0.75s;
+    color: white;
+    border-right: 1px solid white !important;
+}
+.toggle-colour
+{
+    color: red;
+}
+
+.footer {
+    
+    
+border-top: 1px solid red;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+    
+}
+.Footer-nav-main
+{
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+.Footer-nav
+{
+    padding-right: 20px;
+}
+.venueselect {
+    padding-top: 20px
+}
+
+.card {
+    margin-bottom: 20px
+}
+.card-decor{
+    box-shadow: 2px 2px black;
+}
+
+.btn-custom{
+    background-color: red !important;
+    border-color: black !important;
+}
+
+.VenueWrapper{
+    padding-top: 20px;
+}
+.Venue-title{
+    color: red;
+}
+
+
+@media only screen and (max-width: 991px) {
+    
+    
+    .nav-link:hover{
+    justify-self: center;
+    }
+    
+    .nav-link{
+    color: white !important;
+    font-size: 15px;
+    }
+    
+    .colapse-padding{
+    padding-right: 90%;
+    }
+    .Venue-title{
+    color: red;
+        font-size: 30px
+}
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .Footer-nav-main
+    {
+    flex-direction: column!important;
+    justify-content: center;
+    }
+    
+    .Footer-nav
+    {
+    padding-right: 20px;
+    }
+    
+    .footer{
+        position: relative;
+        background-color: black;
+    }
+    
+    
+    
+    
+    
+
+    
+
+}
