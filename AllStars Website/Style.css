@@ -1,4 +1,7 @@
-/*Navbar Styles*/
+*{
+    font-family: sans-serif;
+}
+/*Home styles*/
 .bg-custom{
     background-color: black;
     z-index: 1;
@@ -75,10 +78,42 @@ border-top: 1px solid red;
 
 .VenueWrapper{
     padding-top: 20px;
+    
 }
 .Venue-title{
-    color: red;
+    color: white;
+    
 }
+body
+{
+    background-color: #6b0404!important;
+}
+
+#home{
+    display:contents;
+}
+/*venue contact*/
+#contact-card{
+    
+    margin-top: 10%;
+    width: 360px;
+    border-radius: 20px;
+    
+        
+    background-color: white;
+}
+.title-padding
+{
+    padding-top: 30px;
+}
+#venue{display: none;}
+#venue-title{padding-top: 10px}
+#Details{padding-bottom: 10px}
+#Findus-title{padding-top: 10px}
+#map{height: 400px;
+width: 360px;}
+
+
 
 
 @media only screen and (max-width: 991px) {
@@ -97,36 +132,19 @@ border-top: 1px solid red;
     padding-right: 90%;
     }
     .Venue-title{
-    color: red;
-        font-size: 30px
+    color: white;
+        font-size: 40px
 }
+    .footer{
+        position: relative;
+        background-color: black;
+    }
+    
+    
 
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
 
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  padding: 20px;
-    font-size: 30px;
-    width: 70px;
-    border-radius: 50%;
-    text-decoration: none;
-    margin: 5px 2px;
-}
 
 @media only screen and (max-width: 600px) {
     
@@ -141,16 +159,14 @@ border-top: 1px solid red;
     padding-right: 20px;
     }
     
-    .footer{
-        position: relative;
-        background-color: black;
-    }
+    #contact-card{
     
-    
-    
-    
-    
-
-    
+    padding-top: 40px;
+    width: 90%;
+    background-color: white;
+    min-width: null;
+}
+    #map{height: 400px;
+width: 100%;}
 
 }
