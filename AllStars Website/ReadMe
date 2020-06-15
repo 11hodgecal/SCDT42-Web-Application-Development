@@ -1,8 +1,8 @@
 Features Added
-  . a About section on the home page 
-  . select a venue where contact information about that venue will be shown as well as a google map where it is.
-  . added a new page which shows frequently asked questions.
+  . Contact Form
+  
+other additions
+  .code annotations
   
 known issuse
-  .still has Problems in edge
-  .only shows the map for the taunton venue on all of the venues.
+  .contact form does not work
