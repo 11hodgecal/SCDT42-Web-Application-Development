@@ -3,13 +3,14 @@ var Taunton = {
     lng: -3.099573
 };
 
-var tbtn = document.getElementById("1");
-var wbtn = document.getElementById("4");
-var bbtn = document.getElementById("3");
-var ebtn = document.getElementById("2");
+var tbtn = document.getElementById("1"); //taunton button
+var wbtn = document.getElementById("4"); //weston button
+var bbtn = document.getElementById("3"); //bristol button
+var ebtn = document.getElementById("2"); //exeter button
+var FAQShort = document.getElementById("Short-FAQ") //the title that needs to be shortened
 var LocChouice
 
-
+//if the button for taunton is pressed show selected venue contact details and hide the home page
 tbtn.onclick = function () {
 
 
@@ -20,7 +21,7 @@ tbtn.onclick = function () {
 
 
 };
-
+//if the button for weston is pressed show selected venue contact details and hide the home page
 wbtn.onclick = function () {
 
     document.getElementById("venue").style.display = "block";
@@ -31,7 +32,7 @@ wbtn.onclick = function () {
 
 
 };
-
+//if the button for bristol is pressed show selected venue contact details and hide the home page
 bbtn.onclick = function () {
 
 
@@ -43,7 +44,7 @@ bbtn.onclick = function () {
 
 
 };
-
+//if the button for exeter is pressed show selected venue contact details and hide the home page
 ebtn.onclick = function () {
 
 
@@ -55,6 +56,9 @@ ebtn.onclick = function () {
 
 };
 
+}
+
+//creates a google map zooms in and centers on taunton allstars
 function initMap() {
 
     var map = new google.maps.Map(document.getElementById("map"), {
