@@ -200,7 +200,6 @@ body {
 
 .form-custom {
     background-color: white !important;
-
 }
 
 #formfontCustom {
@@ -212,6 +211,16 @@ body {
 #red-Dropdown {
     background-color: #6b0404;
     color: white;
+}
+
+#errorWrapper {
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    display: block;
 }
 
 
@@ -241,7 +250,7 @@ body {
     /*Contact Styles at 991px*/
 
     .Venue-title {
-        /*changes the venu tirle */
+        /*changes the venue title */
         color: white;
         font-size: 35px
     }

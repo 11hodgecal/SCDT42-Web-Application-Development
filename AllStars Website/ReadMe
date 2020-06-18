@@ -1,8 +1,7 @@
 Features Added
-  . Contact Form
+  . Contact form is fully working 
+  . The contact form shows a sutible error message
   
-other additions
-  .code annotations
+known issues
+  .the contact form will accept any number
   
-known issuse
-  .contact form does not work
