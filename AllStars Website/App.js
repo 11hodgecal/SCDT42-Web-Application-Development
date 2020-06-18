@@ -10,6 +10,9 @@ var ebtn = document.getElementById("2"); //exeter button
 var FAQShort = document.getElementById("Short-FAQ") //the title that needs to be shortened
 var LocChouice
 
+//Contact Form javascript
+
+//Homepage JavaScript
 //if the button for taunton is pressed show selected venue contact details and hide the home page
 tbtn.onclick = function () {
 
@@ -55,9 +58,6 @@ ebtn.onclick = function () {
 
 
 };
-
-}
-
 //creates a google map zooms in and centers on taunton allstars
 function initMap() {
 
@@ -67,3 +67,10 @@ function initMap() {
 
     });
 }
+
+
+
+
+
+
+
