@@ -1,7 +1,9 @@
 Features Added
-  . Contact form is fully working 
-  . The contact form shows a sutible error message
+  .There is a livesports page
+  .Displays sports information when games are on.
+  .the information only shows when the user selects the sport.
   
 known issues
-  .the contact form will accept any number
+  .There is no error message when there is no information provided by the api.
+  .the Darts information displays incorrectly
   
