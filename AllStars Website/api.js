@@ -157,6 +157,8 @@ $(document).ready(function () {
 
 });
 
+//this toggles the the screen to display when the pool is on
+
 $("#pool_btn").click(function (){
    
     $("#pool").show();
@@ -169,6 +171,8 @@ $("#pool_btn").click(function (){
     
 });
 
+//this toggles the the screen to display when the Football is on
+
 $("#Foot_btn").click(function (){
    
     $("#pool").hide();
@@ -180,7 +184,7 @@ $("#Foot_btn").click(function (){
     
     
 });
-
+//this toggles the the screen to display when the Darts is on
 $("#Dart_btn").click(function (){
    
     $("#pool").hide();
@@ -192,7 +196,7 @@ $("#Dart_btn").click(function (){
     
     
 });
-
+//this toggles the the screen to display when the Rugby is on
 $("#Rugby_btn").click(function (){
    
     $("#pool").hide();
@@ -204,7 +208,7 @@ $("#Rugby_btn").click(function (){
     
     
 });
-
+//this toggles the the screen to display when the Cricket is on
 $("#Cricket_btn").click(function (){
    
     $("#pool").hide();

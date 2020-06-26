@@ -234,8 +234,7 @@ body {
     border-color: black;
 }
 
-#pool {
-}
+#pool {}
 
 #Football {
     display: none;
@@ -252,11 +251,21 @@ body {
 #Cricket {
     display: none;
 }
-#TableItem-custom{
+
+#TableItem-custom {
     background-color: white;
     color: black;
 }
 
+/*Discount Styles*/
+#Dis-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#dis-p{
+    color: white;
+}
 
 
 
@@ -283,25 +292,6 @@ body {
         color: white;
         font-size: 35px
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     /*footer styles at 991 px width*/
