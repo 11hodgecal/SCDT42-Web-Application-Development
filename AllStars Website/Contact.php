@@ -102,7 +102,7 @@
                     <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Live Sports</a>
+                    <a class="nav-link" href="LiveSports.html">Live Sports</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Events</a>
@@ -179,7 +179,7 @@
                     <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item Footer-nav">
-                    <a class="nav-link" href="#">Live Sports</a>
+                    <a class="nav-link" href="LiveSports.html">Live Sports</a>
                 </li>
                 <li class="nav-item Footer-nav">
                     <a class="nav-link" href="#">Events</a>
