@@ -1,7 +1,8 @@
 Features Added
-  . Contact form is fully working 
-  . The contact form shows a sutible error message
+  .Added Menu Section
+  .Drop down to filter the main menu.
   
 known issues
-  .the contact form will accept any number
-  
+  .There is no error message when there is no information provided by the api.
+  .the Darts information displays incorrectly
+  .the live sports section is unresponsive.
