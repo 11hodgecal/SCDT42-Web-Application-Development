@@ -187,7 +187,7 @@ body {
 
 .form-Wrapper {
     max-width: 600px;
-    min-width: 250px;
+    min-width: 00px;
     background-color: black;
     padding: 15px;
     border-radius: 25px;
@@ -223,9 +223,64 @@ body {
     display: block;
 }
 
+/*LiveSports Styles*/
 
 
+.space {
+    padding-bottom: 5px;
+}
 
+.Table-custom {
+    border-color: black;
+}
+
+#pool {}
+
+#Football {
+    display: none;
+}
+
+#Darts {
+    display: none;
+}
+
+#Rugby {
+    display: none;
+}
+
+#Cricket {
+    display: none;
+}
+
+#TableItem-custom {
+    background-color: white;
+    color: black;
+}
+
+/*Discount Styles*/
+#Dis-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#dis-p {
+    color: white;
+}
+
+/*Menu Styles*/
+
+Dropdown-custom {
+    background-color: white;
+}
+
+#Main-menu {}
+
+#Sides-Menu {
+    display: none;
+}
+#Drink-menu{
+    display: none;
+}
 
 
 
@@ -239,7 +294,6 @@ body {
     }
 
     .nav-link {
-        color: white !important;
         font-size: 15px;
     }
 
@@ -251,28 +305,8 @@ body {
 
     .Venue-title {
         /*changes the venue title */
-        color: white;
         font-size: 35px
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     /*footer styles at 991 px width*/

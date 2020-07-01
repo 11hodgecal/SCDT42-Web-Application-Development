@@ -1,3 +1,9 @@
+//LiveSports Javascipt
+
+
+
+
+//Homepage JavaScript
 var Taunton = {
     lat: 51.014696,
     lng: -3.099573
@@ -10,9 +16,7 @@ var ebtn = document.getElementById("2"); //exeter button
 var FAQShort = document.getElementById("Short-FAQ") //the title that needs to be shortened
 var LocChouice
 
-//Contact Form javascript
 
-//Homepage JavaScript
 //if the button for taunton is pressed show selected venue contact details and hide the home page
 tbtn.onclick = function () {
 
@@ -67,10 +71,3 @@ function initMap() {
 
     });
 }
-
-
-
-
-
-
-
