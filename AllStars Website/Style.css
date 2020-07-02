@@ -230,6 +230,7 @@ body {
     padding-bottom: 5px;
 }
 
+
 .Table-custom {
     border-color: black;
 }
@@ -282,7 +283,43 @@ Dropdown-custom {
     display: none;
 }
 
+.Table-custom {
+    border-color: black;
 
+}
+
+#pool {}
+
+#Football {
+    display: none;
+}
+
+#Darts {
+    display: none;
+}
+
+#Rugby {
+    display: none;
+}
+
+#Cricket {
+    display: none;
+}
+
+#TableItem-custom {
+    background-color: white;
+    color: black;
+}
+
+/*Discount Styles*/
+#Dis-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#dis-p{
+    color: white;
+}
 
 
 
