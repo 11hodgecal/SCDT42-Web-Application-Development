@@ -108,7 +108,7 @@
                     <a class="nav-link" href="#">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Food</a>
+                    <a class="nav-link" href="Menu.html">Food</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Discounts.html">Discounts</a>
@@ -185,7 +185,7 @@
                     <a class="nav-link" href="#">Events</a>
                 </li>
                 <li class="nav-item Footer-nav">
-                    <a class="nav-link" href="#">Food</a>
+                    <a class="nav-link" href="Menu.html">Food</a>
                 </li>
                 <li class="nav-item Footer-nav">
                     <a class="nav-link" href="Discounts.html">Discounts</a>

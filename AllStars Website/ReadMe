@@ -1,10 +1,15 @@
 Features Added
+
+  .Added Menu Section
+  .Drop down to filter the main menu.
+
   .Added a live sports page which displays all discounts at allstars sports bar
   .added comments to the api.js.
   .made it so all of the webpages can travel in between each other.
+
   
 known issues
   .There is no error message when there is no information provided by the api.
   .the Darts information displays incorrectly
   .the live sports section is unresponsive.
-  
+

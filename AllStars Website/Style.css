@@ -230,8 +230,62 @@ body {
     padding-bottom: 5px;
 }
 
+
 .Table-custom {
     border-color: black;
+}
+
+#pool {}
+
+#Football {
+    display: none;
+}
+
+#Darts {
+    display: none;
+}
+
+#Rugby {
+    display: none;
+}
+
+#Cricket {
+    display: none;
+}
+
+#TableItem-custom {
+    background-color: white;
+    color: black;
+}
+
+/*Discount Styles*/
+#Dis-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#dis-p {
+    color: white;
+}
+
+/*Menu Styles*/
+
+Dropdown-custom {
+    background-color: white;
+}
+
+#Main-menu {}
+
+#Sides-Menu {
+    display: none;
+}
+#Drink-menu{
+    display: none;
+}
+
+.Table-custom {
+    border-color: black;
+
 }
 
 #pool {}
@@ -277,7 +331,6 @@ body {
     }
 
     .nav-link {
-        color: white !important;
         font-size: 15px;
     }
 
@@ -289,7 +342,6 @@ body {
 
     .Venue-title {
         /*changes the venue title */
-        color: white;
         font-size: 35px
     }
 
