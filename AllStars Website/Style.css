@@ -1,3 +1,4 @@
+
 * {
     /*font style that is kept throghout the website*/
     font-family: sans-serif;
@@ -362,3 +363,397 @@ Dropdown-custom {
     }
 
 }
+=======
+* {
+    /*font style that is kept throghout the website*/
+    font-family: sans-serif;
+}
+
+::selection {
+    background-color: red;
+    color: white;
+}
+
+/*Home styles*/
+.bg-custom {
+    background-color: black;
+    z-index: 1;
+}
+
+.nav-link {
+    color: red !important;
+    font-size: 20px
+}
+
+.nav-link:hover {
+    transition: 0.5s;
+    color: white;
+    border-bottom: 1px solid white !important;
+}
+
+.nav-link-logo {
+    color: red !important;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.nav-border {
+    border-bottom: 1.5px solid red;
+}
+
+.nav-link-logo:hover {
+    transition: 0.75s;
+    color: white;
+    border-right: 1px solid white !important;
+}
+
+.toggle-colour {
+    color: red;
+}
+
+.footer {
+
+
+    border-top: 1px solid red;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+.Footer-nav-main {
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+.Footer-nav {
+    padding-right: 20px;
+}
+
+
+/*Contact Page Styles*/
+.venueselect {
+    padding-top: 20px
+}
+
+.card {
+    margin-bottom: 20px
+}
+
+.card-decor {
+    box-shadow: 2px 2px black;
+}
+
+.btn-custom {
+    background-color: red !important;
+    border-color: black !important;
+}
+
+.VenueWrapper {
+    padding-top: 20px;
+
+}
+
+.Venue-title {
+    color: white;
+
+}
+
+body {
+    background-color: #6b0404 !important;
+}
+
+#home {
+    display: contents;
+}
+
+#About {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 40px
+}
+
+
+
+/*venue contact*/
+#contact-card {
+
+    margin-top: 10%;
+    width: 360px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.title-padding {
+    padding-top: 30px;
+}
+
+#venue {
+    display: none;
+}
+
+#venue-title {
+    padding-top: 10px
+}
+
+#Details {
+    padding-bottom: 10px
+}
+
+#Findus-title {
+    padding-top: 10px
+}
+
+#map {
+    height: 400px;
+    width: 360px;
+}
+
+
+
+/*QnA Styles*/
+
+.Question {
+    color: white !important;
+    padding-top: 20px
+}
+
+#Answer {
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#Question-card {
+    background-color: gray !important;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.foot {
+    position: relative;
+    margin-top: 20px;
+}
+
+
+/*Contact form Styles*/
+
+.form-Wrapper {
+    max-width: 600px;
+    min-width: 00px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 3px 2px black;
+    border: 2px solid red;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.form-custom {
+    background-color: white !important;
+}
+
+#formfontCustom {
+    color: white !important;
+    font-weight: 100 !important;
+
+}
+
+#red-Dropdown {
+    background-color: #6b0404;
+    color: white;
+}
+
+#errorWrapper {
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    display: block;
+}
+
+/*LiveSports Styles*/
+
+
+.space {
+    padding-bottom: 5px;
+}
+
+
+.Table-custom {
+    border-color: black;
+}
+
+#pool {}
+
+#Football {
+    display: none;
+}
+
+#Darts {
+    display: none;
+}
+
+#Rugby {
+    display: none;
+}
+
+#Cricket {
+    display: none;
+}
+
+#TableItem-custom {
+    background-color: white;
+    color: black;
+}
+
+/*Discount Styles*/
+#Dis-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#dis-p {
+    color: white;
+}
+
+/*Menu Styles*/
+
+Dropdown-custom {
+    background-color: white;
+}
+
+#Main-menu {}
+
+#Sides-Menu {
+    display: none;
+}
+#Drink-menu{
+    display: none;
+}
+
+.Table-custom {
+    border-color: black;
+
+}
+
+#pool {}
+
+#Football {
+    display: none;
+}
+
+#Darts {
+    display: none;
+}
+
+#Rugby {
+    display: none;
+}
+
+#Cricket {
+    display: none;
+}
+
+#TableItem-custom {
+    background-color: white;
+    color: black;
+}
+
+/*Discount Styles*/
+#Dis-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#dis-p{
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+    /*Nav Styles at 991px*/
+    .nav-link:hover {
+        justify-self: center;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .colapse-padding {
+        padding-right: 90%;
+    }
+
+    /*Contact Styles at 991px*/
+
+    .Venue-title {
+        /*changes the venue title */
+        font-size: 35px
+    }
+
+
+    /*footer styles at 991 px width*/
+    .footer {
+
+        position: relative !important;
+        ;
+        background-color: black;
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    /*footer styles at 600px width*/
+    .Footer-nav-main {
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    .Footer-nav {
+        padding-right: 20px;
+    }
+
+    /*the style of the contact card changes at 600px width*/
+    #contact-card {
+
+        padding-top: 40px;
+        width: 90%;
+        background-color: white;
+        min-width: null;
+    }
+
+    /*the size of the map at 600px width*/
+    #map {
+        height: 400px;
+        width: 100%;
+    }
+
+}
+
