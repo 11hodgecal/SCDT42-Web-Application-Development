@@ -102,16 +102,16 @@
                     <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Live Sports</a>
+                    <a class="nav-link" href="LiveSports.html">Live Sports</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="Events.html">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Food</a>
+                    <a class="nav-link" href="Menu.html">Food</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Discounts</a>
+                    <a class="nav-link" href="Discounts.html">Discounts</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="FAQS.html">FAQS</a>
@@ -179,16 +179,16 @@
                     <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item Footer-nav">
-                    <a class="nav-link" href="#">Live Sports</a>
+                    <a class="nav-link" href="LiveSports.html">Live Sports</a>
                 </li>
                 <li class="nav-item Footer-nav">
-                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="Events.html">Events</a>
                 </li>
                 <li class="nav-item Footer-nav">
-                    <a class="nav-link" href="#">Food</a>
+                    <a class="nav-link" href="Menu.html">Food</a>
                 </li>
                 <li class="nav-item Footer-nav">
-                    <a class="nav-link" href="#">Discounts</a>
+                    <a class="nav-link" href="Discounts.html">Discounts</a>
                 </li>
                 <li class="nav-item Footer-nav">
                     <a class="nav-link" href="FAQS.html">FAQS</a>
